@@ -3,5 +3,5 @@
 
 function classAutoLoader($className)
 {
-    require_once './classes/' . $className . ".php";
+    require_once $className . ".php";
 }
